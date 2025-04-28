@@ -2,7 +2,7 @@
 
 renomeie o .env.example para .env usando `cd src/ && cp .env.example .env`
 
-consiga o `TELEGRAM_BOT_TOKEN` no telegram: [Botfather]("https://telegram.me/BotFather")
+consiga o `TELEGRAM_BOT_TOKEN` no telegram: [Botfather](https://telegram.me/BotFather),
 consiga o `TELEGRAM_CHAT_ID` no `https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates`
 
 certifique-se de criar o arquivo `src/addresses.txt`com a lista de endereços que deseja monitorar.
