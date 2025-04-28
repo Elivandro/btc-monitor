@@ -1,0 +1,10 @@
+services:
+  btc-monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: btc-monitor
+    volumes:
+     - ./src:/app
+    working_dir: /app
+    command: ["python", "-B", "main.py"]
