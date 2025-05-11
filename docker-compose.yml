@@ -1,5 +1,6 @@
 services:
   btc-monitor:
+    container_name: btc-monitor
     build:
       context: .
       dockerfile: Dockerfile
